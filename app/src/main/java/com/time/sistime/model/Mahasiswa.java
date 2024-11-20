@@ -1,6 +1,8 @@
 package com.time.sistime.model;
 
-public class Mahasiswa {
+import java.io.Serializable;
+
+public class Mahasiswa implements Serializable {
     Integer id;
     String nama;
     String kelas;
